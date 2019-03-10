@@ -4,6 +4,7 @@ import com.detroitlabs.dadjoke.model.Joke;
 import com.detroitlabs.dadjoke.service.JokeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -13,10 +14,11 @@ public class JokeController {
     @Autowired
     private JokeService jokeService;
 
-    @ResponseBody
     @RequestMapping("/")
-    public String displayJoke(){
+    public String displayJoke(ModelMap modelMap) {
         Joke joke = jokeService.fetchJoke();
-        return joke.getJoke();
+        joke.splitString();
+        modelMap.put("joke", joke);
+        return "index";
     }
 }
