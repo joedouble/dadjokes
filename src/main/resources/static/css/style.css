@@ -90,7 +90,6 @@ a {
 /*}*/
 
 /* BG */
-
 body {
     position: fixed;
     top: 0;
@@ -110,7 +109,6 @@ body {
 
 
 /* Main */
-
 #main {
     height: 100%;
     left: 0;
@@ -225,101 +223,6 @@ body {
     }
 }
 
-@-moz-keyframes nav-icons {
-    0% {
-        -moz-transform: translate3d(0, 1em, 0);
-        -webkit-transform: translate3d(0, 1em, 0);
-        -o-transform: translate3d(0, 1em, 0);
-        -ms-transform: translate3d(0, 1em, 0);
-        transform: translate3d(0, 1em, 0);
-        opacity: 0;
-    }
-    100% {
-        -moz-transform: translate3d(0, 0, 0);
-        -webkit-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes nav-icons {
-    0% {
-        -moz-transform: translate3d(0, 1em, 0);
-        -webkit-transform: translate3d(0, 1em, 0);
-        -o-transform: translate3d(0, 1em, 0);
-        -ms-transform: translate3d(0, 1em, 0);
-        transform: translate3d(0, 1em, 0);
-        opacity: 0;
-    }
-    100% {
-        -moz-transform: translate3d(0, 0, 0);
-        -webkit-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-}
-
-@-o-keyframes nav-icons {
-    0% {
-        -moz-transform: translate3d(0, 1em, 0);
-        -webkit-transform: translate3d(0, 1em, 0);
-        -o-transform: translate3d(0, 1em, 0);
-        -ms-transform: translate3d(0, 1em, 0);
-        transform: translate3d(0, 1em, 0);
-        opacity: 0;
-    }
-    100% {
-        -moz-transform: translate3d(0, 0, 0);
-        -webkit-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes nav-icons {
-    0% {
-        -moz-transform: translate3d(0, 1em, 0);
-        -webkit-transform: translate3d(0, 1em, 0);
-        -o-transform: translate3d(0, 1em, 0);
-        -ms-transform: translate3d(0, 1em, 0);
-        transform: translate3d(0, 1em, 0);
-        opacity: 0;
-    }
-    100% {
-        -moz-transform: translate3d(0, 0, 0);
-        -webkit-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-}
-
-@keyframes nav-icons {
-    0% {
-        -moz-transform: translate3d(0, 1em, 0);
-        -webkit-transform: translate3d(0, 1em, 0);
-        -o-transform: translate3d(0, 1em, 0);
-        -ms-transform: translate3d(0, 1em, 0);
-        transform: translate3d(0, 1em, 0);
-        opacity: 0;
-    }
-    100% {
-        -moz-transform: translate3d(0, 0, 0);
-        -webkit-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-}
-
 #header {
     /*-moz-animation: header 1s 2.25s forwards;*/
     /*-webkit-animation: header 1s 2.25s forwards;*/
@@ -360,13 +263,13 @@ body {
 p {
     font-size: 40px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .btn {
     border: none;
     background-color: inherit;
-    padding: 5px 12px;
+    padding: 3px 12px;
     font-size: 25px;
     cursor: pointer;
     display: inline-block;

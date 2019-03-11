@@ -37,7 +37,7 @@ public class Joke {
     }
 
     public void splitString(){
-        String[] arrOfStr = new String[2];
+        String[] arrOfStr;
 
         if(joke.contains("?")) {
             arrOfStr = joke.split("\\?", 2);
@@ -46,6 +46,5 @@ public class Joke {
         } else {
             this.question = joke;
         }
-
     }
 }
