@@ -75,19 +75,19 @@ a {
     }
 }
 
-#wrapper {
-    -moz-animation: wrapper 3s forwards;
-    -webkit-animation: wrapper 3s forwards;
-    -o-animation: wrapper 3s forwards;
-    -ms-animation: wrapper 3s forwards;
-    animation: wrapper 3s forwards;
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+/*#wrapper {*/
+    /*-moz-animation: wrapper 3s forwards;*/
+    /*-webkit-animation: wrapper 3s forwards;*/
+    /*-o-animation: wrapper 3s forwards;*/
+    /*-ms-animation: wrapper 3s forwards;*/
+    /*animation: wrapper 3s forwards;*/
+    /*height: 100%;*/
+    /*left: 0;*/
+    /*opacity: 0;*/
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+/*}*/
 
 /* BG */
 
@@ -367,7 +367,7 @@ p {
     border: none;
     background-color: inherit;
     padding: 5px 12px;
-    font-size: 16px;
+    font-size: 25px;
     cursor: pointer;
     display: inline-block;
 }
