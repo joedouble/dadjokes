@@ -8,15 +8,14 @@
 </head>
 
 <body>
+
 <div id="wrapper">
-    <div id="bg"></div>
     <div id="main">
         <div id="header">
             <p th:text="${joke.question}" class="question">Question</p>
             <p th:text="${joke.answer}">Answer</p>
             <a th:href="@{/}" class="btn default">New Joke</a>
         </div>
-
     </div>
 </div>
 <script src="js/skel.min.js"></script>
